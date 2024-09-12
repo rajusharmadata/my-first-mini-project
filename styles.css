@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  
+}
+ 
+.main_box{
+    background: url(photo.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+.sidebar_menu{
+    position: absolute;
+    /* left: -300; */
+    height: 100vhpx;
+    width: 300px;
+    background-color: rgb(255, 255, 255,0.5);
+    box-shadow: 0 0 6px rgb(255, 255, 255,0.5) ;
+}.sidebar_menu .logo {
+    position:absolute;
+    left: 60px;
+    width: 100%;
+}
