@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+font-family: Poppins,sans-serif;
+}
+body{
+    background-color: rgb(188, 187, 186);
+}
+.main{
+    height: 100vh;
+    margin: 30px 100px;
+    display: flex;
+    background-color: white;
+
+}
+.login{
+    height: 100vh;
+    width: 50%;
+    background-color: rgb(86, 86, 218);
+    color: white;
+    
+    
+   
+}
+h1{
+    margin: 80px 0px 0px 0px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    opacity: 0.8;
+}
+#p1{
+    margin-left: 120px;
+    margin-top: 80px;
+    opacity: 0.8;
+}
+input{
+    margin-left: 120px; 
+    padding: 15px;
+    padding-right: 200px;
+    background-color:#3a4aa9;
+    border: none;
+    
+}
+#p2{
+    margin-left: 120px;
+    margin-top :40px; ;
+    opacity: 0.8;
+
+}
+.checkbox{
+    height: 100px;
+    position: relative;
+    left: 75px;
+    top: 30px;
+}
+#p3{
+    position: relative;
+    left: 45px;
+    
+}
+.checkbox::text{
+    position:absolute;
+    left: 70px;
+}
+.checkbox input{
+    color: white;
+  size-adjust: 1.2rem;
+    opacity: 1;
+}
+button{
+    position: relative;
+    left: 250px;
+    top: 120px;
+    padding: 10px 40px;
+    font-size: 1.1rem;
+    background-color:#ff2f2f;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+#p4{
+    position: relative;
+    left: 210px;
+    top: 80px;
+}
+a{
+    text-decoration: none;
+    color: red;
+    
+}
+
+
+input::placeholder{
+    color: white;
+    opacity: 0.5;
+  
+}
+
+
+.image{
+    height: 100vh;
+    display: flex;
+    width: 50%;
+   
+}
+.logo{
+    height: 200px;
+    position:relative;
+    left: 160px;
+    top: 50px;
+
+   
+}
+.imgb{
+    height: 300px;
+   
+}
+.imgb img{
+    height: 350px;
+    position:relative;
+    left: 120px;
+}
